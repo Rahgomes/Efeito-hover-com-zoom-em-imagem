@@ -7,7 +7,7 @@ body {
 
 nav {
     background-color: #000;
-    height: 80px;
+    height: 100px;
     position: fixed;
     width: 100%;
     top: 0;
@@ -18,13 +18,13 @@ nav {
 h1 {
     color: #fff;
     text-align: center;
-    font-size: 32px;
+    font-size: 26px;
     line-height: 1em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .container {
-    margin: 100px auto;
+    margin: 120px auto;
     max-width: 500px;
 }
 
@@ -44,6 +44,7 @@ h1 {
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     transition: all .5s;
 }
 
@@ -93,6 +94,20 @@ span {
     left: 0;
     background-color: rgba(52, 73, 94, 0.75);
 } */
+
+@media (min-width:556px){    
+    nav {
+        height: 80px;
+    }
+    
+    h1 {
+        font-size: 32px;
+    }
+    
+    .container {
+        margin: 100px auto;
+    }
+}
 
 @media (min-width:768px) {
     .container {
